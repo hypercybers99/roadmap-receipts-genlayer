@@ -1,0 +1,898 @@
+{
+  "contractAddress": "0x100B6857aFD1f4f09FEeBb8652de3D7F686EE487",
+  "deployLatency": "9.02",
+  "fixtureCommitSha": "c83e8f197f9264701f5362a8e2f13f5e185186e8",
+  "promptSourceSha256": "86875ca2e701277dc603ec588a7c572a1ede60bcdc9290ed592b10aa5b90e76a",
+  "runs": [
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 1,
+      "txHash": "0x76eb21b5e08d584bfc8b6b56d9d255bed2238368ecbd7c1a6fc2ea5ea7e598ef",
+      "latency": "19.58",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"Release v0.2.0 ships offline sync to all users.\\\",\\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 2,
+      "txHash": "0x4da98a753664ca80a761d5e223edff74d3e4abd9ce02f85f2cc60e7a91d5ea77",
+      "latency": "19.60",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 3,
+      "txHash": "0x2155f071d7458a4501a0266e26100bae9fea3fc84d65307d2471dcb5090202bd",
+      "latency": "19.17",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"Release v0.2.0 ships offline sync to all users.\\\",\\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 4,
+      "txHash": "0x4e12bf1ef97d8bf2731219cc38648281b0279f943dc45f982e1046f7696c0bb5",
+      "latency": "19.18",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 5,
+      "txHash": "0x4c12d88ef5f567940c065e5b8f87c6e0501703010702f963f3c08e4ccf760d87",
+      "latency": "19.04",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 6,
+      "txHash": "0xa11b57ea74125e061b7b1b35e9232e0aef5eb9d777466446dd5a7cde3ad59a39",
+      "latency": "27.96",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"Release v0.2.0 ships offline sync to all users.\\\",\\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 7,
+      "txHash": "0xe29c8290c8d1f1ea9b1fc7701a7206fae3dee6f8efd0dd3f6c8f572c9603790d",
+      "latency": "19.13",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 8,
+      "txHash": "0x616c679fa7cb6bda5540c5666365d174f5eb73cb807ca387f083ebb1c5ed743c",
+      "latency": "28.10",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 9,
+      "txHash": "0xdccebd8bc62cf61b98665717030ba11a93a81ee4b3f8ae65b3c286b080568eff",
+      "latency": "18.97",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"Release v0.2.0 ships offline sync to all users.\\\",\\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 10,
+      "txHash": "0x130c0133464c6e630235c5d9da3b0bbe19163a6c8fc081fe75fbcb81dc2e5680",
+      "latency": "18.98",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|3685c7e69d9801e1\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"Release v0.2.0 ships offline sync to all users.\\\",\\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 1,
+      "txHash": "0x291e0e7aea4bc4f33f0200ec1efb24e9e691a1ae658f94dff628fc7301854842",
+      "latency": "19.76",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 2,
+      "txHash": "0xc6d0f31b15c051adb0afef76d25dc3a6ab0f227ab031ffb8a4b1af6cb9ad1eae",
+      "latency": "18.91",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 3,
+      "txHash": "0xb6ba0c90d91709071ca25f3060fd0cec5489d685645d2ba62913d3071ae55e31",
+      "latency": "18.73",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 4,
+      "txHash": "0x0096a9564742cab8125f5c603351be1ae9d99deba610e3c267b642c2191b81f3",
+      "latency": "27.67",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"Our team announced that \\\\\\\"Release v0.2.0 ships offline sync to all users.\\\\\\\"\\\", \\\"Our team announced that \\\\\\\"Release v0.2.0 ships offline sync to all users.\\\\\\\"\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 5,
+      "txHash": "0x96a8f42d3de9ade3fc97a2c8d243903face48fa29b2663a3a9a6d6c6c74f87a6",
+      "latency": "19.45",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"Our team announced that \\\\\\\"Release v0.2.0 ships offline sync to all users.\\\\\\\"\\\",\\\"Our team announced that \\\\\\\"Release v0.2.0 ships offline sync to all users.\\\\\\\"\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 6,
+      "txHash": "0xba42b3117a1a9b78b97f4dfe4c023183a19c1491fb7837745e6c8fbda9b00b1a",
+      "latency": "19.32",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"Our team announced that \\\\\\\"Release v0.2.0 ships offline sync to all users.\\\\\\\"\\\",\\\"Our team announced that \\\\\\\"Release v0.2.0 ships offline sync to all users.\\\\\\\"\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 7,
+      "txHash": "0xe69d79d1fd4c732aab83b53bb67f747489bac73a62f898aaef865168caaa9cb4",
+      "latency": "19.27",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 8,
+      "txHash": "0xfa904b2ed787382817562456be96260d26841cc534b71e334557f600d19d4f8d",
+      "latency": "19.29",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 9,
+      "txHash": "0x88aa3474b590c52391e00d8aa411be758881de85cae1e76e61698de20cc84b36",
+      "latency": "19.52",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"Release v0.2.0 ships offline sync to all users.\\\", \\\"Release v0.2.0 ships offline sync to all users.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-delivered.html",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 10,
+      "txHash": "0x391b6d9f7c7a685b2054aebd6a67f91599c809698494c31304fb00c905124afc",
+      "latency": "10.30",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|53a2463fcd96ed91\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"\\\\\\\"Release v0.2.0 ships offline sync to all users.\\\\\\\"\\\", \\\"\\\\\\\"Release v0.2.0 ships offline sync to all users.\\\\\\\"\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 1,
+      "txHash": "0xb56468752fa6e8d49310beff7305b154c2f392a376263722b01ec5dcdaac663a",
+      "latency": "18.95",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\",\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\",\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 2,
+      "txHash": "0x49aeb304fa8bc4322930f4691dca22b20b663eb39b786cb7bb5debb79a3a50e1",
+      "latency": "27.30",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"NO\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"\\\", \\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 3,
+      "txHash": "0xb8dc49f8ac57e5c8bdd318205cd9408e5c607d5339bb2d80e1ac875c2984746e",
+      "latency": "18.91",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"NO\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"\\\", \\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 4,
+      "txHash": "0xf8cebe11375102792a39d4a7f77076b183f3fad2ec5c99ad0316a98e7d470881",
+      "latency": "27.49",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\",\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\",\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 5,
+      "txHash": "0xe1999ceeb14e1eec1612073ec9d3ca09ebfbbfa289ca9cb577069037ba8eb446",
+      "latency": "44.37",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"NO\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"\\\", \\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 6,
+      "txHash": "0x2f3f63d13d50d009c574d2afcd4c1d2bf5a63f5cba688cdca6beb41ae2449d12",
+      "latency": "10.34",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\",\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\",\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 7,
+      "txHash": "0x06aacac94c2070b037e01e8fbf37e97b8cb0b475d457d5d49b9359abf59d5bab",
+      "latency": "19.26",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"```json\\n{\\n\\\"labels\\\": [\\\"NO\\\", \\\"NO\\\"],\\n\\\"quotes\\\": [\\\"\\\", \\\"\\\"]\\n}\\n```\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 8,
+      "txHash": "0x07b83947a7b03e439c7bf2556fb31fe82889c74f99ff97740de9b8bbb9d3bfe8",
+      "latency": "19.36",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"NO\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"\\\", \\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 9,
+      "txHash": "0x8fce9e2d329dd54477de9f105c4a701a02772d5f1cf31fc707326be3c88d2300",
+      "latency": "27.53",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\",\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\",\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m1-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A release note states that offline sync is available to all users.",
+        "The release note names the version number that includes offline sync."
+      ],
+      "runIndex": 10,
+      "txHash": "0x5dca761c9c722c869c600675444562933cc08785681da741925320ddc1e87b8e",
+      "latency": "19.20",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|f7710fc264cc15cc\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\",\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\",\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 1,
+      "txHash": "0x91e65b2289da97e06bd79d3dac93556c97a0cda0d2bb9f066d3ff9f961a38fa2",
+      "latency": "19.12",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\", \\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 2,
+      "txHash": "0x9e92db5000440e1373b13cf49e889fb4caa38a1a3b3cfbf9b7b9fc6688755b59",
+      "latency": "36.40",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\", \\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 3,
+      "txHash": "0x9a44beb525f7163c374875eeb9ddb6ef67cf969207037b6a41d98175e6f5b3ed",
+      "latency": "27.49",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"NO\\\"],\\\"quotes\\\":[\\\"Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\",\\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 4,
+      "txHash": "0x4ee99d61ed808ad91d719ae5ae0bd7d0e5a7b7dfe79020d1130b2b204f584c5f",
+      "latency": "44.77",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\", \\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 5,
+      "txHash": "0xbda424053728258d93e4841efda4c1f2f87e7ad82e21c33d4f9642f8255e210a",
+      "latency": "19.07",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"NO\\\"],\\\"quotes\\\":[\\\"Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\",\\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 6,
+      "txHash": "0x21e2ccb8dd0ad9399b5a0a1e7256b35f60f32c2d89522da2ebe66b89ecd0195d",
+      "latency": "19.23",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"\\\\\\\"Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\\\\\"\\\", \\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 7,
+      "txHash": "0xbd4b2fbd4d13b6ae617a655df9c05135b9105902f5893106bb5f5ba263fc4968",
+      "latency": "36.31",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"NO\\\"],\\\"quotes\\\":[\\\"Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\",\\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 8,
+      "txHash": "0x8a46da49ec2e93ad02b03a11583ed9155b6c1e8372e7d3a0096a33ed6e3d0ec2",
+      "latency": "19.68",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\", \\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 9,
+      "txHash": "0xf11ac3ef1510da3a9a447af59aeae338c846276483473d8b766a4c4fe8ab5fca",
+      "latency": "18.97",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"NO\\\"],\\\"quotes\\\":[\\\"Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\",\\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-partial.md",
+      "expectedStatus": "PARTIAL",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 10,
+      "txHash": "0x96d4bfffd5ee58662dc3bdb525783d71cdb7ba8d67466d5524a8b5d30fd5ac09",
+      "latency": "19.48",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"PARTIAL|95ddebfb0b418dee\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"NO\\\"], \\\"quotes\\\": [\\\"Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.\\\", \\\"\\\"]}\",\"status\":\"PARTIAL\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 1,
+      "txHash": "0x9928b25df406f39fb213c43455491b68e38a2343cb9d9e096e24adfc7816c679",
+      "latency": "19.29",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.\\\",\\\"A release note states that the API is generally available and not in beta.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 2,
+      "txHash": "0x98d5b28ce71e97789b4ec53004b2c9d7bcff3b0170a513b8d65894e7dbae4cd1",
+      "latency": "19.06",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\n\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"],\\n\\\"quotes\\\": [\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.\\\", \\\"A release note states that the API is generally available and not in beta.\\\"]\\n}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 3,
+      "txHash": "0xe324a857677c8bbc12a2654ff771f871e91723c4ca82bd203d07e3d2a2b593e1",
+      "latency": "19.08",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.\\\", \\\"A release note states that the API is generally available and not in beta.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 4,
+      "txHash": "0x2e64f9c7ee856a7972372aba19d8c0ff673764e9ce8471555f6282ac64a6ff90",
+      "latency": "19.29",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.\\\", \\\"A release note states that the API is generally available and not in beta.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 5,
+      "txHash": "0x879d3f3044bc4eec60f2a471491d0fe418f931dd6257ffb21dcaafa337a9a502",
+      "latency": "27.25",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.\\\",\\\"A release note states that the API is generally available and not in beta.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 6,
+      "txHash": "0xc5c4d0613c736b0d2feeeb69b4090f86a883a116bdffa135442f8af050b0a884",
+      "latency": "28.42",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`\\\", \\\"A release note states that the API is generally available and not in beta.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 7,
+      "txHash": "0x820cb7680bb9091bcc5a3470bbf578afc7777e5b2f9fa86d3bbab08b8b1b8d4f",
+      "latency": "19.13",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\n\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"],\\n\\\"quotes\\\": [\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.\\\", \\\"A release note states that the API is generally available and not in beta.\\\"]\\n}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 8,
+      "txHash": "0x80a798f9f7f3b18ece87bfbfc54d2f7f94a76ead3fb575474a0bdc4c7516596d",
+      "latency": "20.03",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.\\\", \\\"A release note states that the API is generally available and not in beta.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 9,
+      "txHash": "0xf9f44ba9aae43e0df271d7652ddf0b4c1f0dcce35d7a7a4f1a3e5dfbc587dc1e",
+      "latency": "19.59",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"YES\\\",\\\"YES\\\"],\\\"quotes\\\":[\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.\\\",\\\"A release note states that the API is generally available and not in beta.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m2-delivered.md",
+      "expectedStatus": "DELIVERED",
+      "criteria": [
+        "The documentation lists endpoints for notes and for tags.",
+        "A release note states that the API is generally available and not in beta."
+      ],
+      "runIndex": 10,
+      "txHash": "0x7b365ef87acdd37473b1183892c979aa6664aa8518dd77e2b6790284249a92ee",
+      "latency": "27.78",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"DELIVERED|553f6069894460c6\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"YES\\\", \\\"YES\\\"], \\\"quotes\\\": [\\\"The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.\\\", \\\"A release note states that the API is generally available and not in beta.\\\"]}\",\"status\":\"DELIVERED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 1,
+      "txHash": "0x5cdf79794cbf2d0c49cee92e8e1bed0500874b4816aaf14cda7b2f4e2fd55db0",
+      "latency": "19.30",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 2,
+      "txHash": "0x8a02f5f6916819e5ae92c707cc57ed89ddca7e94657e581a1948492f82044189",
+      "latency": "18.85",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 3,
+      "txHash": "0xdf10ea0423f5facacf3a1028251cc235c873693fdc19e1fb34b953a65ba53be4",
+      "latency": "19.34",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 4,
+      "txHash": "0x9fe99962cf18ce389c8dcaa262f162dd5f582b4ff70284cba733310858ca1592",
+      "latency": "20.34",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"NO\\\"], \\\"quotes\\\": [\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 5,
+      "txHash": "0xe1dfd731453f3f62244180a9de37e0ce2c57b9cf31894bc8af50faafdfb5c2fc",
+      "latency": "19.99",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"NO\\\"], \\\"quotes\\\": [\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 6,
+      "txHash": "0x2c8aeea4f5bb7dce75292702fd63a07afaad3938d91ac485953fb0b8654e42b5",
+      "latency": "19.36",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 7,
+      "txHash": "0xed25763ec6409f30b2224e7ef6bb89f942a5a38a7f9b6a697d6148fed4b29b78",
+      "latency": "19.55",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 8,
+      "txHash": "0x22ac98c8e7dd7f57335265b2f7239471235a4a451dbf389c76e43d71877e23db",
+      "latency": "19.26",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"NO\\\"], \\\"quotes\\\": [\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 9,
+      "txHash": "0x4972dee5d1ddcd2ee3fc386be0e1550b1706f090bc9fe92fa4744c591d48d86f",
+      "latency": "18.87",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\": [\\\"NO\\\"], \\\"quotes\\\": [\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    },
+    {
+      "target": "m3-missed.md",
+      "expectedStatus": "MISSED",
+      "criteria": [
+        "A published audit report is linked from the page."
+      ],
+      "runIndex": 10,
+      "txHash": "0xcffd8037aea673007497c8124a5c6455d37ae72799401663422d15e19f578262",
+      "latency": "18.74",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "rawOutput": "{\"consensus_token\":\"MISSED|df0553b68b35fc33\",\"page_url\":\"https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md\",\"raw_model_out\":\"{\\\"labels\\\":[\\\"NO\\\"],\\\"quotes\\\":[\\\"\\\"]}\",\"status\":\"MISSED\"}"
+    }
+  ]
+}
