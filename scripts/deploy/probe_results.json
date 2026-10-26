@@ -1,0 +1,151 @@
+{
+  "contractAddress": "0xc7542202502A3f0E77547bB6238aa227793ebc45",
+  "deployTxHash": "0xef75129f2d475ea8b33d9e0e2f46b10a0dcc0803f4a5f9dfa5c2f14061a41e6a",
+  "deployLatency": "9.05",
+  "codeSha256": "43e575556dfe3bc1be9ba14ae91b81cb3f91f9dac85dff12d7d68c298ba1fb01",
+  "sender": "0x3bff817F9f3bB20cbF1a6840D8d70B2291F90616",
+  "views": {
+    "sender": "0x3bff817F9f3bB20cbF1a6840D8d70B2291F90616",
+    "bool": true,
+    "str": "studionet_probe_ok",
+    "list": [
+      "item_0",
+      "item_1",
+      "item_2"
+    ],
+    "int_arg": "int_received:42:int"
+  },
+  "transactions": [
+    {
+      "action": "deploy_probe",
+      "txHash": "0xef75129f2d475ea8b33d9e0e2f46b10a0dcc0803f4a5f9dfa5c2f14061a41e6a",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "9.05"
+    },
+    {
+      "action": "probe_write_int",
+      "txHash": "0x4fc3983acff3de53caa460c1cd573a6b49d151c0f8b3c94c50af0f519149c036",
+      "status_name": "ACCEPTED",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.60",
+      "readBack": "stored_int:100"
+    },
+    {
+      "action": "probe_env_and_modules",
+      "txHash": "0xe680c0ae55a4ded0d66c6339555eeaf35022ac27ee02c1c40d3ef851340c0c99",
+      "status_name": "ACCEPTED",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.86",
+      "envInfo": {
+        "ip": "127.0.0.1",
+        "parsed_netloc": "raw.githubusercontent.com:443",
+        "parsed_path": "/lumen/notes",
+        "parsed_scheme": "https",
+        "payload_len": 10240,
+        "regex_clean": "M1 Delivered 100 ",
+        "sender": "0x3bff817F9f3bB20cbF1a6840D8d70B2291F90616",
+        "sha256": "9a398b80f30ce11469dc348347b3b1dbba194724a340de63dd0c029cc797a2fb",
+        "unescaped": "<roadmap & receipts>"
+      }
+    },
+    {
+      "action": "probe_web_fetch_md",
+      "txHash": "0x5649433ea77f9d31026c2520c24dfe2f74e3998fcf5b1274a9a7dd59de0211ee",
+      "status_name": "ACCEPTED",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "12.01",
+      "result": {
+        "length": 410,
+        "preview": "# Lumen Notes - Release v0.2.0\n\nRelease v0.2.0 ships offline sync to all users. Every local modification is synchronized",
+        "sha256": "4138198d3c890bc6f328a30794659fc78ae613b4bfee3d373cd2990261d56abd",
+        "status": 200
+      }
+    },
+    {
+      "action": "probe_web_fetch_html",
+      "txHash": "0x647c3e57d5497b6f9a86201b787fbd2d2fdea58b6ee34c4e14642410d484dd43",
+      "status_name": "ACCEPTED",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "15.04",
+      "result": {
+        "length": 516,
+        "preview": "<!DOCTYPE html>\n<html>\n<head><title>Lumen Notes Updates</title></head>\n<body>\n<h1>LUMEN NOTES - PRODUCT UPDATES</h1>\n<p>",
+        "sha256": "cd5488f6be331f325d43a5a5b1d1aca6ebb4c94eead4ba39d90e632b4cd6774d",
+        "status": 200
+      }
+    },
+    {
+      "action": "probe_web_fetch_404",
+      "txHash": "0x27fff57a07a77cc82c41f96262ba81e2cf74cef276459e2ce2a190fab7eff3a3",
+      "status_name": "ACCEPTED",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "11.77",
+      "result": {
+        "length": 14,
+        "preview": "404: Not Found",
+        "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+        "status": 404
+      }
+    },
+    {
+      "action": "probe_web_fetch_public",
+      "txHash": "0xc95b1f2eca43790647c8fe8b6b9d4a8b0e82a533bc22f42b2a54400fb04f2526",
+      "status_name": "ACCEPTED",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "12.25",
+      "result": {
+        "length": 577,
+        "preview": "<!doctype html><html lang=en><head><meta charset=utf-8><link rel=icon href=data:,><meta name=viewport content=\"width=dev",
+        "sha256": "25ddf2c883e0d1958ea971d279a7e4f0fd446724ee3db7db19dadabd4a62e484",
+        "status": 200
+      }
+    },
+    {
+      "action": "probe_byte_stability",
+      "txHash": "0xa22bda491c1cfa43b99920e7701263d928276c0c7cdcf33f104d6c516a271003",
+      "status_name": "ACCEPTED",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "11.69",
+      "result": {
+        "first_hash": "4138198d3c890bc6f328a30794659fc78ae613b4bfee3d373cd2990261d56abd",
+        "hashes": [
+          "4138198d3c890bc6f328a30794659fc78ae613b4bfee3d373cd2990261d56abd",
+          "4138198d3c890bc6f328a30794659fc78ae613b4bfee3d373cd2990261d56abd",
+          "4138198d3c890bc6f328a30794659fc78ae613b4bfee3d373cd2990261d56abd",
+          "4138198d3c890bc6f328a30794659fc78ae613b4bfee3d373cd2990261d56abd",
+          "4138198d3c890bc6f328a30794659fc78ae613b4bfee3d373cd2990261d56abd"
+        ],
+        "lengths": [
+          410,
+          410,
+          410,
+          410,
+          410
+        ],
+        "stable": true
+      }
+    },
+    {
+      "action": "probe_llm_execution",
+      "txHash": "0xfe55feef34f2308c972834695a97fecdab0d6e579659386e1fc5211afebff240",
+      "status_name": "ACCEPTED",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "18.19",
+      "result": {
+        "cleaned_output": "{\"labels\": [\"YES\"], \"quotes\": [\"Release v0.2.0 ships offline sync to all users.\"]}",
+        "parsed_data": {
+          "labels": [
+            "YES"
+          ],
+          "quotes": [
+            "Release v0.2.0 ships offline sync to all users."
+          ]
+        },
+        "parsed_status": "PARSE_OK",
+        "raw_output": "{\"labels\": [\"YES\"], \"quotes\": [\"Release v0.2.0 ships offline sync to all users.\"]}"
+      }
+    }
+  ]
+}
