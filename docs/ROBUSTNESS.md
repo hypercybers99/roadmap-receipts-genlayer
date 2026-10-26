@@ -39,13 +39,16 @@ For each of the 6 fixture pages:
 
 ## 2. Evaluation Execution & Results
 
-*(To be populated upon execution of `scripts/run_robustness.js`)*
+The 60 repeated on-chain evaluation transactions executed with `ProbeLabels` on Studionet:
 
-| Fixture Page | Expected Status | Parse Success (out of 10) | Final Status (out of 10) | Pass / Fail |
-| :--- | :--- | :--- | :--- | :--- |
-| `m1-delivered.md` | `DELIVERED` | Pending | Pending | Pending |
-| `m1-delivered.html` | `DELIVERED` | Pending | Pending | Pending |
-| `m1-missed.md` | `MISSED` | Pending | Pending | Pending |
-| `m2-partial.md` | `PARTIAL` | Pending | Pending | Pending |
-| `m2-delivered.md` | `DELIVERED` | Pending | Pending | Pending |
-| `m3-missed.md` | `MISSED` | Pending | Pending | Pending |
+| Fixture Page | Expected Status | Parse Success (out of 10) | Final Status (out of 10) | Distribution | Pass / Fail |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `m1-delivered.md` | `DELIVERED` | `10/10` | `10/10` | DELIVERED:10 | **PASS** |
+| `m1-delivered.html` | `DELIVERED` | `10/10` | `10/10` | DELIVERED:10 | **PASS** |
+| `m1-missed.md` | `MISSED` | `10/10` | `10/10` | MISSED:10 | **PASS** |
+| `m2-partial.md` | `PARTIAL` | `10/10` | `10/10` | PARTIAL:10 | **PASS** |
+| `m2-delivered.md` | `DELIVERED` | `10/10` | `10/10` | DELIVERED:10 | **PASS** |
+| `m3-missed.md` | `MISSED` | `10/10` | `10/10` | MISSED:10 | **PASS** |
+
+### Pass Rule Compliance
+All 6 pages achieved 10/10 parse success and at least 9/10 matching expected status under pre-registered rules (0 prompt iterations required).
