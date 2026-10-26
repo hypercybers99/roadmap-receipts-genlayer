@@ -1,0 +1,20 @@
+{
+  "network": "GenLayer Studionet",
+  "chain_id": 61999,
+  "rpc_url": "https://studio.genlayer.com/api",
+  "explorer_base": "https://explorer-studio.genlayer.com/address/",
+  "contracts": {
+    "RoadmapLedger": {
+      "address": "0xD22E8C03EbB382D9A9df07829e18c2E4DDd6f67D",
+      "deploy_tx": "0x6b58d6a56bc212bac0541ef857028fde452a15d7074acc113843ad974376ddc6",
+      "source_sha256": "82c68250dbf7e488ca0fd89dec6f3df23e25d8a1c1d4930b48c7f2c63cb4fd5d",
+      "explorer_url": "https://explorer-studio.genlayer.com/address/0xD22E8C03EbB382D9A9df07829e18c2E4DDd6f67D"
+    },
+    "TrancheGate": {
+      "address": "0x437c45bD60e202Cc7C08C7C4A94e603649750fA8",
+      "deploy_tx": "0xc8ed01b1e5ab8cae8fa26cc2ee0786c8d147824f94b65bb3939d34400a708347",
+      "source_sha256": "8377fc0141693eabcde991126a044ad225cde560adc683490e7199613f2a5548",
+      "explorer_url": "https://explorer-studio.genlayer.com/address/0x437c45bD60e202Cc7C08C7C4A94e603649750fA8"
+    }
+  }
+}
