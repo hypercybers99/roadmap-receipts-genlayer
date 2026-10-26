@@ -78,10 +78,10 @@ For complete architectural details, see [docs/DESIGN.md](docs/DESIGN.md), [docs/
 ## Deployments (Studionet Preview)
 - **Network**: GenLayer Studionet (Chain ID 61999)
 - **RPC URL**: `https://studio.genlayer.com/api`
-- **RoadmapLedger Address**: `TBD (Milestone 2)`
-- **RoadmapLedger Explorer**: `https://explorer-studio.genlayer.com/address/TBD`
-- **TrancheGate Address**: `TBD (Milestone 2)`
-- **TrancheGate Explorer**: `https://explorer-studio.genlayer.com/address/TBD`
+- **RoadmapLedger Address**: [`0xD22E8C03EbB382D9A9df07829e18c2E4DDd6f67D`](https://explorer-studio.genlayer.com/address/0xD22E8C03EbB382D9A9df07829e18c2E4DDd6f67D)
+- **RoadmapLedger Deploy Tx**: `0x6b58d6a56bc212bac0541ef857028fde452a15d7074acc113843ad974376ddc6` (9.60s latency, `ACCEPTED / SUCCESS`)
+- **TrancheGate Address**: [`0x437c45bD60e202Cc7C08C7C4A94e603649750fA8`](https://explorer-studio.genlayer.com/address/0x437c45bD60e202Cc7C08C7C4A94e603649750fA8)
+- **TrancheGate Deploy Tx**: `0xc8ed01b1e5ab8cae8fa26cc2ee0786c8d147824f94b65bb3939d34400a708347` (8.89s latency, `ACCEPTED / SUCCESS`)
 
 ---
 
