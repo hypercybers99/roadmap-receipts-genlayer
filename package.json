@@ -1,0 +1,28 @@
+{
+  "name": "roadmap-receipts-genlayer",
+  "version": "1.0.0",
+  "description": "Roadmap Receipts: Intelligent Contract and Grant Gate for Verifiable Milestone Delivery on GenLayer Studionet (Preview)",
+  "type": "commonjs",
+  "scripts": {
+    "test": "python -m unittest discover tests",
+    "scan:ascii": "python scripts/scan_ascii.py",
+    "scan:banned": "python scripts/scan_banned_words.py",
+    "scan:secrets": "python scripts/scan_secrets.py",
+    "parity": "python scripts/test_decide_parity.py",
+    "check": "npm run test && npm run scan:ascii && npm run scan:banned && npm run scan:secrets && npm run parity",
+    "report:facts": "node scripts/report_facts.js"
+  },
+  "keywords": [
+    "genlayer",
+    "intelligent-contracts",
+    "roadmap-receipts",
+    "milestone-verification",
+    "grants",
+    "consensus"
+  ],
+  "author": "Hyper (huzyow155)",
+  "license": "MIT",
+  "dependencies": {
+    "genlayer-js": "^1.1.8"
+  }
+}
