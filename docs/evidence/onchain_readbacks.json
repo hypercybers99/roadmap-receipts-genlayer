@@ -55,7 +55,7 @@
     ],
     "milestones_hash": "ad355d7cb90f8e15ae6bc81fafa462161f3eafbe0f25f89448fd40354e363528",
     "name": "Lumen Notes Roadmap",
-    "owner": "0xa435dd7f02dc9ac3766eeb83d30b254ce53a2b9e",
+    "owner": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
     "progress_pct": "0",
     "review_count": "0",
     "schema_version": "1",
@@ -63,7 +63,7 @@
     "verified_count": "0"
   },
   "verification_1": {
-    "caller": "0xa435dd7f02dc9ac3766eeb83d30b254ce53a2b9e",
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
     "effective_labels": [
       "YES",
       "YES"
@@ -89,16 +89,16 @@
     "tripwire": false
   },
   "verification_2": {
-    "caller": "0xa435dd7f02dc9ac3766eeb83d30b254ce53a2b9e",
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
     "effective_labels": [
-      "YES",
+      "PARTIAL",
       "NO"
     ],
     "evidence_url_used": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md",
     "gate": "",
     "id": "2",
     "labels": [
-      "YES",
+      "PARTIAL",
       "NO"
     ],
     "leader_reported": "true",
@@ -115,7 +115,7 @@
     "tripwire": false
   },
   "verification_3": {
-    "caller": "0xa435dd7f02dc9ac3766eeb83d30b254ce53a2b9e",
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
     "effective_labels": [
       "NO"
     ],
@@ -193,7 +193,7 @@
     ],
     "milestones_hash": "ad355d7cb90f8e15ae6bc81fafa462161f3eafbe0f25f89448fd40354e363528",
     "name": "Lumen Notes Roadmap",
-    "owner": "0xa435dd7f02dc9ac3766eeb83d30b254ce53a2b9e",
+    "owner": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
     "progress_pct": "55",
     "review_count": "0",
     "schema_version": "1",
@@ -258,7 +258,7 @@
     ],
     "milestones_hash": "ad355d7cb90f8e15ae6bc81fafa462161f3eafbe0f25f89448fd40354e363528",
     "name": "Lumen Notes Roadmap",
-    "owner": "0xa435dd7f02dc9ac3766eeb83d30b254ce53a2b9e",
+    "owner": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
     "progress_pct": "80",
     "review_count": "0",
     "schema_version": "1",
@@ -266,7 +266,7 @@
     "verified_count": "3"
   },
   "verification_6_tripwire": {
-    "caller": "0xa435dd7f02dc9ac3766eeb83d30b254ce53a2b9e",
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
     "effective_labels": [
       "UNCLEAR"
     ],

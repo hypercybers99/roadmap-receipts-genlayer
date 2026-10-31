@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-10-31T09:21:32.658Z",
+  "ledger_address": "0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4",
+  "roadmap_id": 8,
+  "runs_404": [
+    {
+      "run": 1,
+      "txHash": "0xf304033f85a47fe1cf2434ef2318106b751a09eb3104c531ae73dc876b3bd04e",
+      "latency": "15.00",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "HTTP status not 200: 404"
+    },
+    {
+      "run": 2,
+      "txHash": "0x3cba04b2ebf09f181c0e6fbcea9fc2fc2385e187bb242ad64265b7adb1849862",
+      "latency": "15.28",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "HTTP status not 200: 404"
+    },
+    {
+      "run": 3,
+      "txHash": "0x701df4d440a32c5795f2dad9935cc0d4c439643a0f788010d68df2573f4c286c",
+      "latency": "15.25",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "HTTP status not 200: 404"
+    }
+  ],
+  "runs_too_short": [
+    {
+      "run": 1,
+      "txHash": "0x23413ee753c83189d49cb700bcae0c5bfee3bf631ae2babb142f2b9e25edb7c0",
+      "latency": "15.24",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "page unreadable: text under 150 characters"
+    },
+    {
+      "run": 2,
+      "txHash": "0x32aed45b68f5b9d516e91eb2408188e30dc9d1f59072712cebc205890e43c61d",
+      "latency": "15.01",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "page unreadable: text under 150 characters"
+    },
+    {
+      "run": 3,
+      "txHash": "0xa424a0a726c734b42072ff545159b3e0f515462ae0ebea360df78196f1c007ec",
+      "latency": "10.64",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "page unreadable: text under 150 characters"
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 {
   "RoadmapLedger": {
     "contract": "RoadmapLedger",
-    "deployTxHash": "0x6b58d6a56bc212bac0541ef857028fde452a15d7074acc113843ad974376ddc6",
+    "deployTxHash": "0x0a08f61bd22dc4be324cc356c439cf8ebd0d4489f1af34c9eeafa6af4bcf61ac",
     "rpcMethod": "eth_getTransactionByHash",
     "rpcField": "result.data.contract_code",
-    "localSha256": "82c68250dbf7e488ca0fd89dec6f3df23e25d8a1c1d4930b48c7f2c63cb4fd5d",
-    "chainSha256": "82c68250dbf7e488ca0fd89dec6f3df23e25d8a1c1d4930b48c7f2c63cb4fd5d",
+    "localSha256": "daef918508151db2a4a6a0086ace8bee55f39889dd47e4f74b99c6c7fa726aa4",
+    "chainSha256": "daef918508151db2a4a6a0086ace8bee55f39889dd47e4f74b99c6c7fa726aa4",
     "byteForByteMatch": true,
-    "sourceBytesLength": 29529,
+    "sourceBytesLength": 30255,
     "diffOutput": "0 diff (byte-for-byte identical)",
-    "verifiedAt": "2026-10-26T04:54:47.160Z"
+    "verifiedAt": "2026-10-31T08:43:26.012Z"
   },
   "TrancheGate": {
     "contract": "TrancheGate",
-    "deployTxHash": "0xc8ed01b1e5ab8cae8fa26cc2ee0786c8d147824f94b65bb3939d34400a708347",
+    "deployTxHash": "0x5d0fc24ac99be98339c5d8d3acccff303a0c0b9c8f35d1bf1f67414175e892c3",
     "rpcMethod": "eth_getTransactionByHash",
     "rpcField": "result.data.contract_code",
     "localSha256": "8377fc0141693eabcde991126a044ad225cde560adc683490e7199613f2a5548",
@@ -21,6 +21,6 @@
     "byteForByteMatch": true,
     "sourceBytesLength": 14617,
     "diffOutput": "0 diff (byte-for-byte identical)",
-    "verifiedAt": "2026-10-26T04:54:47.558Z"
+    "verifiedAt": "2026-10-31T08:43:26.379Z"
   }
 }

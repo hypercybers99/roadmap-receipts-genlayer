@@ -50,6 +50,11 @@ def quote_in_page(quote: str, page_text_clean: str) -> bool:
 
 
 def parse_labels(text: str, n_criteria: int) -> tuple[bool, list[str], list[str]]:
+    """Strict parser for LLM labels and quotes.
+    Rejects duplicate keys, non-dict JSON, extra/missing keys,
+    incorrect list length, invalid label enums, or invalid quotes.
+    Returns (is_valid, labels, quotes). If is_valid is False, status is REVIEW.
+    """
     if not isinstance(text, str):
         return (False, [], [])
     
@@ -106,6 +111,7 @@ def parse_labels(text: str, n_criteria: int) -> tuple[bool, list[str], list[str]
         if not isinstance(q, str) or len(q) > 300:
             return (False, [], [])
 
+        # Empty string allowed only when label is NO or UNCLEAR
         if len(q.strip()) == 0 and lbl in {"YES", "PARTIAL"}:
             return (False, [], [])
 
@@ -116,6 +122,7 @@ def parse_labels(text: str, n_criteria: int) -> tuple[bool, list[str], list[str]
 
 
 def verify_quotes(labels: list[str], quotes: list[str], page_text_clean: str) -> list[str]:
+    """Returns effective labels: any YES or PARTIAL whose quote is not found becomes UNCLEAR."""
     effective = []
     for lbl, q in zip(labels, quotes):
         if lbl in {"YES", "PARTIAL"}:
@@ -129,6 +136,7 @@ def verify_quotes(labels: list[str], quotes: list[str], page_text_clean: str) ->
 
 
 def milestone_status(effective_labels: list[str], tripwire: bool) -> str:
+    """Deterministic status derivation from effective labels and tripwire flag."""
     if tripwire:
         return "REVIEW"
     if not effective_labels or any(lbl == "UNCLEAR" for lbl in effective_labels):
@@ -141,6 +149,7 @@ def milestone_status(effective_labels: list[str], tripwire: bool) -> str:
 
 
 def build_prompt(criteria: list[str], page_text_clean: str) -> str:
+    """Builds structured prompt payload for LLM verification."""
     n = len(criteria)
     sample_labels = ["NO"] * n
     sample_quotes = [""] * n
