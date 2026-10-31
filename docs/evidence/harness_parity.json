@@ -1,0 +1,39 @@
+{
+  "build_prompt": {
+    "ast_identical": true,
+    "raw_identical": true,
+    "rl_unparsed_sha256": "f4038787b1f7f96dadef77986ed14fc933a62d696fe7b833099f2798871b82ef",
+    "pl_unparsed_sha256": "f4038787b1f7f96dadef77986ed14fc933a62d696fe7b833099f2798871b82ef",
+    "rl_raw_sha256": "e4a35d4af616fbf56a8340d04f5f903dec0d910f7849663d34aae825d880cec7",
+    "pl_raw_sha256": "e4a35d4af616fbf56a8340d04f5f903dec0d910f7849663d34aae825d880cec7"
+  },
+  "parse_labels": {
+    "ast_identical": true,
+    "raw_identical": true,
+    "rl_unparsed_sha256": "e7128c16db53d33393db0167c1b6fa83d8d9c81dcbd8f39f46cc75f4a77eab83",
+    "pl_unparsed_sha256": "e7128c16db53d33393db0167c1b6fa83d8d9c81dcbd8f39f46cc75f4a77eab83",
+    "rl_raw_sha256": "356db6fe9ad17faa46ca6a7e06ef9ea28bd7c46d077b39a5a6e48b6cda17fc4d",
+    "pl_raw_sha256": "356db6fe9ad17faa46ca6a7e06ef9ea28bd7c46d077b39a5a6e48b6cda17fc4d"
+  },
+  "verify_quotes": {
+    "ast_identical": true,
+    "raw_identical": true,
+    "rl_unparsed_sha256": "2ed9b7c14d9113076e0b742f6ecbdf5a296b510880b1ff69646cc0e99acc70eb",
+    "pl_unparsed_sha256": "2ed9b7c14d9113076e0b742f6ecbdf5a296b510880b1ff69646cc0e99acc70eb",
+    "rl_raw_sha256": "93065a8efbf4da40d8ddb73e232726bc10d334cb738b40b2d47ed64fa7e3b555",
+    "pl_raw_sha256": "93065a8efbf4da40d8ddb73e232726bc10d334cb738b40b2d47ed64fa7e3b555"
+  },
+  "milestone_status": {
+    "ast_identical": true,
+    "raw_identical": true,
+    "rl_unparsed_sha256": "cacdedbdcb16c8cae42f8a0d317690a6c18ed70aec88ac53f335179431bbfa87",
+    "pl_unparsed_sha256": "cacdedbdcb16c8cae42f8a0d317690a6c18ed70aec88ac53f335179431bbfa87",
+    "rl_raw_sha256": "c6cbd513cca8129230a2e369d4a254132816ed68a896fada8d2cd644e413ec7d",
+    "pl_raw_sha256": "c6cbd513cca8129230a2e369d4a254132816ed68a896fada8d2cd644e413ec7d"
+  },
+  "prompt_template": {
+    "match": true,
+    "rl_prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pl_prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

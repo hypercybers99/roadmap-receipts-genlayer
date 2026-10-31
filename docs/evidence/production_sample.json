@@ -1,0 +1,169 @@
+{
+  "runs": [
+    {
+      "target": "m1-delivered.md",
+      "run_index": 1,
+      "tx_hash": "0x66c7b4cb13c4ef5e8fb532d8a91ecf5c8a5eb179a6f8b35d5f47e1716767bf03",
+      "latency_seconds": "19.86",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "status": "DELIVERED",
+      "labels": [
+        "YES",
+        "YES"
+      ],
+      "expected_status": "DELIVERED",
+      "expected_labels": [
+        "YES",
+        "YES"
+      ]
+    },
+    {
+      "target": "m2-partial.md",
+      "run_index": 1,
+      "tx_hash": "0x44edbdb669d9386d29be7bd8faa19da876b8f855c6f3bacb76fab546ad20b618",
+      "latency_seconds": "44.28",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "status": "PARTIAL",
+      "labels": [
+        "YES",
+        "NO"
+      ],
+      "expected_status": "PARTIAL",
+      "expected_labels": [
+        "YES",
+        "NO"
+      ]
+    },
+    {
+      "target": "m3-missed.md",
+      "run_index": 1,
+      "tx_hash": "0x2c5554dccf18eb5ca2b81c17691d431b6e9495e778fb5e17dbb9728f64ab4f08",
+      "latency_seconds": "53.16",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "status": "MISSED",
+      "labels": [
+        "NO"
+      ],
+      "expected_status": "MISSED",
+      "expected_labels": [
+        "NO"
+      ]
+    },
+    {
+      "target": "m1-delivered.md",
+      "run_index": 2,
+      "tx_hash": "0xd0fb06744056b23d6285c3c409294a603503ad235c5c54737b33a695c5b732d3",
+      "latency_seconds": "28.17",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "status": "DELIVERED",
+      "labels": [
+        "YES",
+        "YES"
+      ],
+      "expected_status": "DELIVERED",
+      "expected_labels": [
+        "YES",
+        "YES"
+      ]
+    },
+    {
+      "target": "m2-partial.md",
+      "run_index": 2,
+      "tx_hash": "0x1fd3a6469ae72f46800fd8d97f130837b96d0b574dd67cc1f320911b340176bc",
+      "latency_seconds": "19.00",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "status": "PARTIAL",
+      "labels": [
+        "YES",
+        "NO"
+      ],
+      "expected_status": "PARTIAL",
+      "expected_labels": [
+        "YES",
+        "NO"
+      ]
+    },
+    {
+      "target": "m3-missed.md",
+      "run_index": 2,
+      "tx_hash": "0x25de0ef966668e862c6ffe805a79b56bcd7f3492f5c21b9b30d942feb3f16510",
+      "latency_seconds": "19.09",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "status": "MISSED",
+      "labels": [
+        "NO"
+      ],
+      "expected_status": "MISSED",
+      "expected_labels": [
+        "NO"
+      ]
+    },
+    {
+      "target": "m1-delivered.md",
+      "run_index": 3,
+      "tx_hash": "0xda6cf31ba32d05a5f66c5f702eb9e0c7ec576555646ef0bfc8be87ce8b7f8a85",
+      "latency_seconds": "18.80",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "status": "DELIVERED",
+      "labels": [
+        "YES",
+        "YES"
+      ],
+      "expected_status": "DELIVERED",
+      "expected_labels": [
+        "YES",
+        "YES"
+      ]
+    },
+    {
+      "target": "m2-partial.md",
+      "run_index": 3,
+      "tx_hash": "0x542b6c0f59d4d0dee0a39362e6228edad5ab167586b299e348372c383e87bade",
+      "latency_seconds": "11.66",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "status": "PARTIAL",
+      "labels": [
+        "YES",
+        "NO"
+      ],
+      "expected_status": "PARTIAL",
+      "expected_labels": [
+        "YES",
+        "NO"
+      ]
+    },
+    {
+      "target": "m3-missed.md",
+      "run_index": 3,
+      "tx_hash": "0xd7d8fa4e805f4201b186be7501a47314bea8c3732151288632b83dca29b36b4a",
+      "latency_seconds": "18.85",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "status": "MISSED",
+      "labels": [
+        "NO"
+      ],
+      "expected_status": "MISSED",
+      "expected_labels": [
+        "NO"
+      ]
+    }
+  ]
+}
