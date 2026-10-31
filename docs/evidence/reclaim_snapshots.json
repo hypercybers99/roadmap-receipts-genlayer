@@ -1,0 +1,58 @@
+{
+  "after_claim": {
+    "funder_balance": "1000",
+    "recipient_balance": "0",
+    "total_escrow": "0",
+    "total_minted": "1000",
+    "sum_of_balances": "1000",
+    "conserved": true
+  },
+  "after_create_grant": {
+    "funder_balance": "100",
+    "recipient_balance": "0",
+    "total_escrow": "900",
+    "total_minted": "1000",
+    "sum_of_balances": "1000",
+    "conserved": true
+  },
+  "after_reclaim_delivered_refusal": {
+    "funder_balance": "100",
+    "recipient_balance": "0",
+    "total_escrow": "900",
+    "total_minted": "1000",
+    "sum_of_balances": "1000",
+    "conserved": true
+  },
+  "after_reclaim_review_refusal": {
+    "funder_balance": "100",
+    "recipient_balance": "0",
+    "total_escrow": "900",
+    "total_minted": "1000",
+    "sum_of_balances": "1000",
+    "conserved": true
+  },
+  "after_reclaim_missed_success": {
+    "funder_balance": "300",
+    "recipient_balance": "0",
+    "total_escrow": "700",
+    "total_minted": "1000",
+    "sum_of_balances": "1000",
+    "conserved": true
+  },
+  "after_duplicate_reclaim_refusal": {
+    "funder_balance": "300",
+    "recipient_balance": "0",
+    "total_escrow": "700",
+    "total_minted": "1000",
+    "sum_of_balances": "1000",
+    "conserved": true
+  },
+  "after_release_delivered_success": {
+    "funder_balance": "300",
+    "recipient_balance": "300",
+    "total_escrow": "400",
+    "total_minted": "1000",
+    "sum_of_balances": "1000",
+    "conserved": true
+  }
+}
