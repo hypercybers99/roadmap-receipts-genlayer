@@ -659,22 +659,41 @@ class RoadmapLedger(gl.Contract):
 
         # Leader / validator pipeline execution
         def run_eval_pipeline() -> dict:
-            res = gl.nondet.web.get(ev_url)
-            status_code = int(res.status)
+            try:
+                res = gl.nondet.web.get(ev_url)
+                status_code = int(res.status)
+            except Exception as e:
+                return {
+                    "consensus_token": "ERROR|WEB_GET_FAILED",
+                    "error": f"evidence unreachable: {str(e)}",
+                }
+
             if status_code != 200:
-                raise gl.vm.UserError(f"HTTP status not 200: {status_code}")
+                return {
+                    "consensus_token": f"ERROR|HTTP_{status_code}",
+                    "error": f"HTTP status not 200: {status_code}",
+                }
 
             body_bytes = res.body if isinstance(res.body, (bytes, bytearray)) else str(res.body).encode("utf-8")
             if not body_bytes or len(body_bytes) == 0:
-                raise gl.vm.UserError("evidence unreachable: empty body")
+                return {
+                    "consensus_token": "ERROR|EMPTY_BODY",
+                    "error": "evidence unreachable: empty body",
+                }
 
             if len(body_bytes) > 100000:
-                raise gl.vm.UserError("page too large: exceeds 100000 bytes")
+                return {
+                    "consensus_token": "ERROR|PAGE_TOO_LARGE",
+                    "error": "page too large: exceeds 100000 bytes",
+                }
 
             raw_str = body_bytes.decode("utf-8", errors="replace")
             cleaned_p = clean_text(raw_str)
             if len(cleaned_p) < 150:
-                raise gl.vm.UserError("page unreadable: text under 150 characters")
+                return {
+                    "consensus_token": "ERROR|TOO_SHORT",
+                    "error": "page unreadable: text under 150 characters",
+                }
 
             n_hash = norm_hash(cleaned_p)
             n_hash16 = n_hash[:16]
@@ -740,6 +759,9 @@ class RoadmapLedger(gl.Contract):
 
         result_json = gl.vm.run_nondet(leader_run, validator_run)
         eval_data = json.loads(result_json)
+
+        if "error" in eval_data and eval_data["error"]:
+            raise gl.vm.UserError(eval_data["error"])
 
         status = eval_data["status"]
         norm_hash16 = eval_data["norm_hash16"]
