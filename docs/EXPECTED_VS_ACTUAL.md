@@ -1,6 +1,7 @@
 # Expected vs Actual On-Chain Results
 
-This document compares the pre-registered fixture predictions and calculated progress scores against the actual values produced on GenLayer Studionet during Milestone 4 on-chain validation.
+This document compares pre-registered fixture predictions against actual values produced on GenLayer Studionet during Milestone 4 on-chain validation.
+All values in this document are extracted dynamically from raw execution receipts and snapshots (`docs/evidence/onchain_receipts.json`, `docs/evidence/onchain_readbacks.json`, and `docs/evidence/reclaim_snapshots.json`).
 
 ---
 
@@ -34,42 +35,67 @@ Lumen Notes Weights: M1 = 3, M2 = 5, M3 = 2 (Total Weight = 10).
 - Weight computation: `(3 * 100 + 5 * 50 + 2 * 0) // 10 = (300 + 250 + 0) // 10 = 550 // 10 = 55`
 - Hand-computed `progress_pct`: `55`
 - Actual On-Chain `progress_pct`: `55`
-- Verified count: `3`
-- Review count: `0`
 - Match: **EXACT MATCH**
 
 ### Scenario 2 (M1 DELIVERED, M2 DELIVERED, M3 MISSED)
 - Weight computation: `(3 * 100 + 5 * 100 + 2 * 0) // 10 = (300 + 500 + 0) // 10 = 800 // 10 = 80`
 - Hand-computed `progress_pct`: `80`
 - Actual On-Chain `progress_pct`: `80`
-- Verified count: `3`
-- Review count: `0`
+- Match: **EXACT MATCH**
+
+### Scenario 3 (M1 DELIVERED, M2 DELIVERED, M3 REVIEW via Injection Tripwire)
+- Weight computation: `(3 * 100 + 5 * 100 + 2 * 0) // 10 = 80` (REVIEW earns 0 points)
+- Hand-computed `progress_pct`: `80`
+- Actual On-Chain `progress_pct`: `80`
 - Match: **EXACT MATCH**
 
 ---
 
 ## 3. TrancheGate Credit Conservation Invariant
 
-- **Rule**: `balance_of(funder) + balance_of(recipient) + total_escrow == total_minted`
-- **Initial Claim**: 1,000 demo credits claimed by funder (`total_minted = 1000`).
-- **Grant Allocation**: Tranche 0 (300), Tranche 1 (400), Tranche 2 (200) -> 900 escrowed, 100 remaining in funder balance.
-- **After Release Tranche 0** (M1 `DELIVERED`): 300 transferred from escrow to recipient.
-- **After Release Tranche 1** (M2 `DELIVERED`): 400 transferred from escrow to recipient.
-- **After Reclaim Tranche 2** (M3 `MISSED`): 200 returned from escrow to funder.
-- **Final Read-Back Balances**:
-  - Funder Balance: `300` (100 unallocated + 200 reclaimed)
-  - Recipient Balance: `700` (300 tranche 0 + 400 tranche 1)
-  - Total Escrow Remaining: `0`
+The core conservation invariant enforced across all states is:
+`balance_of(funder) + balance_of(recipient) + total_escrow == total_minted`
+
+### Lifecycle Grant 1 State:
+- Initial Funder Claim: `1000` demo credits.
+- Grant Allocation: Tranche 0 (300), Tranche 1 (400), Tranche 2 (200) -> 900 escrowed, 100 unallocated funder balance.
+- Release Tranche 0: `300` transferred from escrow to recipient.
+- Release Tranche 1: `400` transferred from escrow to recipient.
+- Reclaim Tranche 2 Attempt: Correctly rejected on-chain with `"cannot reclaim: milestone status is review"` because M3 remains in `REVIEW` after injection tripwire interception.
+- Read-Back Balances for Grant 1:
+  - Funder Balance: `100`
+  - Recipient Balance: `700`
+  - Escrow Remaining: `200`
+  - Invariant Check: `100 + 700 + 200 = 1000 == 1000` (Zero leakage)
+
+### Dedicated Reclaim Proof State (Pre-registered in docs/EXPECTED_RECLAIM.md):
+- Grant Allocation: Tranche 0 (300, DELIVERED), Tranche 1 (400, REVIEW), Tranche 2 (200, MISSED).
+- Reclaim Tranche 0 (DELIVERED) Refusal: `cannot reclaim: milestone status is delivered`
+- Reclaim Tranche 1 (REVIEW) Refusal: `cannot reclaim: milestone status is review`
+- Reclaim Tranche 2 (MISSED) Success: `200` returned from escrow to funder.
+- Duplicate Reclaim Refusal: `tranche already reclaimed`
+- Release Tranche 0 (DELIVERED) Success: `300` transferred from escrow to recipient.
+- Final Balances for Dedicated Reclaim Proof:
+  - Funder Balance: `300`
+  - Recipient Balance: `300`
+  - Escrow Remaining: `400`
   - Total Minted: `1000`
-  - Invariant Check: `300 + 700 + 0 = 1000 == 1000`
-- **Result**: **100% CONSERVED (ZERO LEAKAGE)**
+  - Invariant Sum: `1000 == 1000`
+- Result: **100% CONSERVED (ZERO LEAKAGE)**
 
 ---
 
 ## 4. Latency: Tripwire-Gated vs Judged Model Verification
 
-- **Judged Run (LLM Call)**:
-  - Web fetch + prompt build + GenVM LLM execution + quote validation: **14.86s - 18.20s**
+Raw on-chain transaction latencies recorded directly by client execution timer:
+
+- **Judged Runs (LLM Call via GenVM)**:
+  - Web fetch + prompt build + GenVM LLM execution + quote validation.
+  - Measured range across 5 verification transactions: **15.10s - 21.65s**
 - **Tripwire-Gated Run (`m3-injection.md`)**:
-  - Web fetch + deterministic regex scan -> Immediate tripwire detection -> Defaults to `REVIEW`: **4.10s - 7.50s**
-- **Latency Reduction**: Over 55% reduction in latency when malicious injection pattern is intercepted deterministically before invoking the LLM.
+  - Web fetch + deterministic regex scan -> Immediate tripwire detection -> Defaults to `REVIEW`.
+  - Zero model prompt iteration or GenVM LLM call executed.
+  - Measured end-to-end consensus latency: **14.95s**
+- **Observed Behavior**:
+  - The tripwire completely eliminates non-deterministic model execution and avoids LLM prompt iterations.
+  - End-to-end transaction latency includes studionet consensus, leader web-fetch, validator verification, and block inclusion.
