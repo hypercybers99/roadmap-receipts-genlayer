@@ -78,10 +78,11 @@ For complete architectural details, see [docs/DESIGN.md](docs/DESIGN.md), [docs/
 ## Deployments (Studionet Preview)
 - **Network**: GenLayer Studionet (Chain ID 61999)
 - **RPC URL**: `https://studio.genlayer.com/api`
-- **RoadmapLedger Address**: [`0xD22E8C03EbB382D9A9df07829e18c2E4DDd6f67D`](https://explorer-studio.genlayer.com/address/0xD22E8C03EbB382D9A9df07829e18c2E4DDd6f67D)
-- **RoadmapLedger Deploy Tx**: `0x6b58d6a56bc212bac0541ef857028fde452a15d7074acc113843ad974376ddc6` (9.60s latency, `ACCEPTED / SUCCESS`)
-- **TrancheGate Address**: [`0x437c45bD60e202Cc7C08C7C4A94e603649750fA8`](https://explorer-studio.genlayer.com/address/0x437c45bD60e202Cc7C08C7C4A94e603649750fA8)
-- **TrancheGate Deploy Tx**: `0xc8ed01b1e5ab8cae8fa26cc2ee0786c8d147824f94b65bb3939d34400a708347` (8.89s latency, `ACCEPTED / SUCCESS`)
+- **Active RoadmapLedger**: [`0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4`](https://explorer-studio.genlayer.com/address/0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4)
+  - Deploy Tx: `0xc1a3f37d7197d57a126cef7908c309e819c37dc6e9cf5fd6a5ebcd2d8f2101b2` (7.71s latency, `ACCEPTED / SUCCESS`)
+- **Active TrancheGate**: [`0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026`](https://explorer-studio.genlayer.com/address/0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026)
+  - Deploy Tx: `0x24532e069b090bc7dae24a6dcff25bec180b6af2f4f099491c46de6aae772da9` (8.11s latency, `ACCEPTED / SUCCESS`)
+- **Superseded Pair (v1)**: See [docs/ADDRESS_REGISTRY.md](docs/ADDRESS_REGISTRY.md) for full audit history and upgrade rationale.
 
 ---
 

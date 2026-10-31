@@ -37,21 +37,21 @@ The v2 contract pair refactors non-deterministic error handling: web fetch HTTP 
 
 ### RoadmapLedger (v2 Active)
 - **Status**: Active (Canonical)
-- **Contract Address**: `0xBF1e1b015cAd13eDf54F056ef15199160cA90984`
-- **Deploy Transaction**: `0x0a08f61bd22dc4be324cc356c439cf8ebd0d4489f1af34c9eeafa6af4bcf61ac`
-- **Deploy Latency**: 9.47 s (`ACCEPTED`, `MAJORITY_AGREE`, `SUCCESS`)
+- **Contract Address**: `0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4`
+- **Deploy Transaction**: `0xc1a3f37d7197d57a126cef7908c309e819c37dc6e9cf5fd6a5ebcd2d8f2101b2`
+- **Deploy Latency**: 7.71 s (`ACCEPTED`, `MAJORITY_AGREE`, `SUCCESS`)
 - **Source SHA-256**: `daef918508151db2a4a6a0086ace8bee55f39889dd47e4f74b99c6c7fa726aa4`
-- **Explorer**: `https://explorer-studio.genlayer.com/address/0xBF1e1b015cAd13eDf54F056ef15199160cA90984`
+- **Explorer**: `https://explorer-studio.genlayer.com/address/0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4`
 - **Raw Deploy Payload**: `docs/evidence/source/deploy_tx_RoadmapLedger_v2.json`
 - **Extracted Source**: `docs/evidence/source/RoadmapLedger_v2_onchain.py`
 
 ### TrancheGate (v2 Active)
 - **Status**: Active (Canonical)
-- **Contract Address**: `0x6e97C82f7eFB8BFDD43BcF4cB16d27F28b93FC41`
-- **Deploy Transaction**: `0x5d0fc24ac99be98339c5d8d3acccff303a0c0b9c8f35d1bf1f67414175e892c3`
-- **Deploy Latency**: 7.32 s (`ACCEPTED`, `MAJORITY_AGREE`, `SUCCESS`)
+- **Contract Address**: `0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026`
+- **Deploy Transaction**: `0x24532e069b090bc7dae24a6dcff25bec180b6af2f4f099491c46de6aae772da9`
+- **Deploy Latency**: 8.11 s (`ACCEPTED`, `MAJORITY_AGREE`, `SUCCESS`)
 - **Source SHA-256**: `8377fc0141693eabcde991126a044ad225cde560adc683490e7199613f2a5548`
-- **Explorer**: `https://explorer-studio.genlayer.com/address/0x6e97C82f7eFB8BFDD43BcF4cB16d27F28b93FC41`
-- **Bound Ledger Address**: `0xBF1e1b015cAd13eDf54F056ef15199160cA90984`
+- **Explorer**: `https://explorer-studio.genlayer.com/address/0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026`
+- **Bound Ledger Address**: `0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4`
 - **Raw Deploy Payload**: `docs/evidence/source/deploy_tx_TrancheGate_v2.json`
 - **Extracted Source**: `docs/evidence/source/TrancheGate_v2_onchain.py`
