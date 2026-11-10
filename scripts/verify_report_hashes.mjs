@@ -27,6 +27,7 @@ function getKnownEntities() {
 
   // Fixture commit
   add("c83e8f197f9264701f5362a8e2f13f5e185186e8", "Fixtures repo pinned commit");
+  add("bb56f7a8c76123d7bfaca1fabd9bab7da11a0783", "Git commit / Tag rr-v1: bb56f7a");
 
   // 2. Local files SHA-256
   const contractFiles = ['RoadmapLedger.py', 'TrancheGate.py', 'ProbeLabels.py', 'Probe.py', 'CoreRoadmapLedger.py'];
