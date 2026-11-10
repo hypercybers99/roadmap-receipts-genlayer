@@ -118,7 +118,8 @@ function getKnownEntities() {
 }
 
 function main() {
-  const reportPath = path.join(rootDir, 'docs/FINAL_REPORT.md');
+  const targetArg = process.argv[2];
+  const reportPath = targetArg ? path.resolve(rootDir, targetArg) : path.join(rootDir, 'docs/FINAL_REPORT.md');
   if (!fs.existsSync(reportPath)) {
     console.error(`Report file not found: ${reportPath}`);
     process.exit(1);

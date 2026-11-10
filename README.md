@@ -82,6 +82,8 @@ For complete architectural details, see [docs/DESIGN.md](docs/DESIGN.md), [docs/
   - Deploy Tx: `0xc1a3f37d7197d57a126cef7908c309e819c37dc6e9cf5fd6a5ebcd2d8f2101b2` (7.71s latency, `ACCEPTED / SUCCESS`)
 - **Active TrancheGate**: [`0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026`](https://explorer-studio.genlayer.com/address/0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026)
   - Deploy Tx: `0x24532e069b090bc7dae24a6dcff25bec180b6af2f4f099491c46de6aae772da9` (8.11s latency, `ACCEPTED / SUCCESS`)
+  - Bound Ledger Address (Constructor Arg): `0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4`
+  - Source Parity: TrancheGate v2 has the exact same source sha256 (`8377fc0141693eabcde991126a044ad225cde560adc683490e7199613f2a5548`) and code as v1 (`0x437c45bD60e202Cc7C08C7C4A94e603649750fA8`), differing only by the ledger address passed to its constructor.
 - **Superseded Pair (v1)**: See [docs/ADDRESS_REGISTRY.md](docs/ADDRESS_REGISTRY.md) for full audit history and upgrade rationale.
 
 ---

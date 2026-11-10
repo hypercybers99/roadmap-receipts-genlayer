@@ -25,3 +25,6 @@ Milestone statuses are not permanently locked to positive outcomes. If a milesto
 
 ## 8. Fictional Fixtures
 All test suites, fixtures, and on-chain verification demonstrations use a fictional project named "Lumen Notes". No real organizations, software repositories, or entities are evaluated.
+
+## 9. TrancheGate Binding and Contract Version Parity
+The companion grant contract `TrancheGate` is permanently bound to a single `RoadmapLedger` contract instance via its immutable constructor parameter `ledger_address`. When `RoadmapLedger` was upgraded to v2 (`0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4`), a corresponding `TrancheGate` v2 was deployed (`0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026`). TrancheGate v2 shares the exact same source code and byte-for-byte SHA-256 digest (`8377fc0141693eabcde991126a044ad225cde560adc683490e7199613f2a5548`) as v1 (`0x437c45bD60e202Cc7C08C7C4A94e603649750fA8`), differing solely in the ledger address passed to its constructor (`0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4` for v2 vs `0xD22E8C03EbB382D9A9df07829e18c2E4DDd6f67D` for v1).

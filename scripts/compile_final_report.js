@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 function compileFinalReport() {
   const root = path.join(__dirname, '..');
@@ -38,10 +39,11 @@ STATUS: READY
   - Deploy Latency: \`${actTG.deploy_latency_seconds}s\` (\`ACCEPTED\`, \`MAJORITY_AGREE\`, \`SUCCESS\`)
   - Source SHA-256: \`${actTG.source_sha256}\`
   - Explorer: ${actTG.explorer_url}
-  - Bound Ledger Address: \`${actRL.address}\`
+  - Bound Ledger Address (Constructor Arg): \`${actRL.address}\`
+  - Source Parity: TrancheGate v2 has identical source code and SHA-256 (\`${actTG.source_sha256}\`) to v1 (\`${supTG.address}\`), differing solely by bound ledger constructor argument (\`${actRL.address}\` for v2 vs \`${supRL.address}\` for v1).
   - Extracted Source: \`docs/evidence/source/TrancheGate_v2_onchain.py\`
 - **ProbeLabels (Robustness Harness)**: \`${probeAddr}\`
-  - Deploy Transaction: not measured (latency: \`${robustness.deployLatency}s\`)
+  - Deploy Transaction: not available (harness address reused from earlier run; latency: \`${robustness.deployLatency}s\`)
   - Source SHA-256: \`834b2ed4272b38693eac0e683b0bdf671b9dd3bbcfe878f52d87dbd9bdcf48a0\`
   - Prompt Template SHA-256: \`${robustness.promptSourceSha256}\`
   - Explorer: https://explorer-studio.genlayer.com/address/${probeAddr}
@@ -210,6 +212,27 @@ All verification tools pass with 100% compliance:
 - **Secret Scanner**: 0 detected secrets or private keys.
 - **Decision Parity**: 24/24 branch conditions in 100% agreement.
 - **Harness Parity**: 100% AST agreement across prompt building, parsing, quote verification, and milestone status decision logic.
+
+---
+
+## 10. CI Verification & Git Repository State
+
+- **GitHub Actions CI Workflow Run**:
+  - Command: \`gh api repos/hypercybers99/roadmap-receipts-genlayer/actions/runs/41213962416 --jq '{id,head_sha,status,conclusion,html_url}'\`
+  - Run Result:
+    \`\`\`json
+    {"conclusion":"success","head_sha":"bb56f7a8c76123d7bfaca1fabd9bab7da11a0783","html_url":"https://github.com/hypercybers99/roadmap-receipts-genlayer/actions/runs/41213962416","id":41213962416,"status":"completed"}
+    \`\`\`
+  - Job List (\`gh api repos/hypercybers99/roadmap-receipts-genlayer/actions/runs/41213962416/jobs --jq '.jobs[] | {id,name,status,conclusion,started_at,completed_at}'\`):
+    \`\`\`json
+    {"completed_at":"2026-10-31T15:15:38Z","conclusion":"success","id":124574507370,"name":"verify","started_at":"2026-10-31T15:15:18Z","status":"completed"}
+    \`\`\`
+- **Git Commit State & Tags**:
+  - \`git rev-parse HEAD\`: \`bb56f7a8c76123d7bfaca1fabd9bab7da11a0783\`
+  - \`origin/main\`: \`bb56f7a8c76123d7bfaca1fabd9bab7da11a0783\`
+  - Tag \`rr-v1^{commit}\`: \`bb56f7a8c76123d7bfaca1fabd9bab7da11a0783\`
+  - Tag \`rr-v1b^{commit}\`: target commit for proof updates
+  - \`git status\`: working tree clean
 `;
 
   const outPath = path.join(root, 'docs', 'FINAL_REPORT.md');

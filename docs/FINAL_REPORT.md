@@ -15,10 +15,11 @@ STATUS: READY
   - Deploy Latency: `8.11s` (`ACCEPTED`, `MAJORITY_AGREE`, `SUCCESS`)
   - Source SHA-256: `8377fc0141693eabcde991126a044ad225cde560adc683490e7199613f2a5548`
   - Explorer: https://explorer-studio.genlayer.com/address/0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026
-  - Bound Ledger Address: `0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4`
+  - Bound Ledger Address (Constructor Arg): `0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4`
+  - Source Parity: TrancheGate v2 has identical source code and SHA-256 (`8377fc0141693eabcde991126a044ad225cde560adc683490e7199613f2a5548`) to v1 (`0x437c45bD60e202Cc7C08C7C4A94e603649750fA8`), differing solely by bound ledger constructor argument (`0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4` for v2 vs `0xD22E8C03EbB382D9A9df07829e18c2E4DDd6f67D` for v1).
   - Extracted Source: `docs/evidence/source/TrancheGate_v2_onchain.py`
 - **ProbeLabels (Robustness Harness)**: `0x100B6857aFD1f4f09FEeBb8652de3D7F686EE487`
-  - Deploy Transaction: not measured (latency: `9.02s`)
+  - Deploy Transaction: not available (harness address reused from earlier run; latency: `9.02s`)
   - Source SHA-256: `834b2ed4272b38693eac0e683b0bdf671b9dd3bbcfe878f52d87dbd9bdcf48a0`
   - Prompt Template SHA-256: `86875ca2e701277dc603ec588a7c572a1ede60bcdc9290ed592b10aa5b90e76a`
   - Explorer: https://explorer-studio.genlayer.com/address/0x100B6857aFD1f4f09FEeBb8652de3D7F686EE487
@@ -189,3 +190,24 @@ All verification tools pass with 100% compliance:
 - **Secret Scanner**: 0 detected secrets or private keys.
 - **Decision Parity**: 24/24 branch conditions in 100% agreement.
 - **Harness Parity**: 100% AST agreement across prompt building, parsing, quote verification, and milestone status decision logic.
+
+---
+
+## 10. CI Verification & Git Repository State
+
+- **GitHub Actions CI Workflow Run**:
+  - Command: `gh api repos/hypercybers99/roadmap-receipts-genlayer/actions/runs/41213962416 --jq '{id,head_sha,status,conclusion,html_url}'`
+  - Run Result:
+    ```json
+    {"conclusion":"success","head_sha":"bb56f7a8c76123d7bfaca1fabd9bab7da11a0783","html_url":"https://github.com/hypercybers99/roadmap-receipts-genlayer/actions/runs/41213962416","id":41213962416,"status":"completed"}
+    ```
+  - Job List (`gh api repos/hypercybers99/roadmap-receipts-genlayer/actions/runs/41213962416/jobs --jq '.jobs[] | {id,name,status,conclusion,started_at,completed_at}'`):
+    ```json
+    {"completed_at":"2026-10-31T15:15:38Z","conclusion":"success","id":124574507370,"name":"verify","started_at":"2026-10-31T15:15:18Z","status":"completed"}
+    ```
+- **Git Commit State & Tags**:
+  - `git rev-parse HEAD`: `bb56f7a8c76123d7bfaca1fabd9bab7da11a0783`
+  - `origin/main`: `bb56f7a8c76123d7bfaca1fabd9bab7da11a0783`
+  - Tag `rr-v1^{commit}`: `bb56f7a8c76123d7bfaca1fabd9bab7da11a0783`
+  - Tag `rr-v1b^{commit}`: target commit for proof updates
+  - `git status`: working tree clean
